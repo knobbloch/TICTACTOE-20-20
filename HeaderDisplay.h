@@ -2,5 +2,6 @@
 
 void YouWin();
 void YouLoose();
-void ShowTable(int(&a)[20][20]);
-void Q(bool k);
+int ShowTable();
+void InicialisationDisplay(int** a);
+void PostDisplay();
